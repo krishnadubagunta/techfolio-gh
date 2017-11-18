@@ -1,0 +1,61 @@
+.nav {
+  padding: 10px;
+  background-color: white;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.head {
+  display: table !important;
+  margin: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right !important;
+}
+
+.head img {
+  float: right;
+}
+
+.head p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.about {
+  text-align: center;
+  margin: 10vh;
+  max-height: 70vh;
+}
+.about h1 {
+  font-weight: 200 !important;
+  font-size: 3em !important;
+}
+
+.justified {
+  text-align: justify;
+  text-rendering: geometricPrecision;
+  text-emphasis-color: olive;
+}
+.coverPhoto {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.pullUp {
+  top: -15vh;
+}
+
+.fit {
+  height: 40px;
+}
